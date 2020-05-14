@@ -1,4 +1,4 @@
-# TimerPLugin
+# TimerPlugin
 Ein TimerPlugin für die Minecraft Version 1.14.4
 
 Dieses Plugin hat keinen besonders großen Funktionumfang, ist
