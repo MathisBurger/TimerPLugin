@@ -1,0 +1,9 @@
+name: TimerPlugin
+version: ${project.version}
+main: de.mathisburger.timerplugin.main
+api-version: 1.13
+prefix: TimerPlugin
+load: STARTUP
+authors: [MathisBurger]
+description: Ein Timerplugin
+website: mathis-burger.de
