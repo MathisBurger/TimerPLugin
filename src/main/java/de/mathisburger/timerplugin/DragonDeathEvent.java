@@ -18,6 +18,7 @@ public class DragonDeathEvent implements Listener {
     @EventHandler
     public void onDragonDeath(EntityDeathEvent e){
         if(e.getEntity() instanceof EnderDragon){
+            if(Var.FinishCountDownOnDragonDeath){
             Var.TimerState = "pausiert";
             System.out.println("Der Drache ist tot");
             if(Var.TimerMode.equalsIgnoreCase("countup")){
@@ -27,6 +28,6 @@ public class DragonDeathEvent implements Listener {
                 Bukkit.getScheduler().cancelTask(TimerCommand.taskid2);
                 ActionBarAPI.sendActionBarToAllPlayers(ChatColor.GOLD + "Timer ist pausiert");
             }
-        }
+        } }
     }
 }
