@@ -6,6 +6,8 @@ aber trotzdem sehr hilfreich.
 
 Man kann einen Countdown starten, aber den Timer auch einfach hochzählen
 lassen.
+Wenn ihr das Plugin installieren wollt, fügt beide .jar Dateien in euren Plugins-Ordner auf eurem Server.
+Den Source Code könnt ihr mit der IntelliJ Idea IDE öffnen.
 
 ####Commands:
 - /timer resume // Startet den Timer oder setzt den Timer fort
