@@ -1,6 +1,5 @@
 package de.mathisburger.timerplugin;
 import com.connorlinfoot.actionbarapi.ActionBarAPI;
-import com.google.common.util.concurrent.AbstractScheduledService;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -8,8 +7,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
-import java.awt.*;
 
 public class TimerCommand implements CommandExecutor {
 
@@ -21,7 +18,6 @@ public class TimerCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(label.equalsIgnoreCase("timer")){
             if(sender instanceof Player){
-                //Status des Timers auslesen
                 if(args[0].equalsIgnoreCase("state")){
                     if(Var.TimerState.equalsIgnoreCase("pausiert")){
                         ActionBarAPI.sendActionBarToAllPlayers(ChatColor.GOLD + "Timer ist pausiert");
@@ -33,7 +29,6 @@ public class TimerCommand implements CommandExecutor {
                     }
                     return true;
                 }
-                //Timer Starten, Fortsetzen
                 if(args[0].equalsIgnoreCase("resume")){
                     if(Var.TimerState.equalsIgnoreCase("not_config")){
 
