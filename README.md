@@ -4,6 +4,8 @@ Ein TimerPlugin für die Minecraft Version 1.14.4
 Dieses Plugin hat keinen besonders großen Funktionumfang, ist
 aber trotzdem sehr hilfreich.
 
+Man benötigt keine Permissions um das Plugin in seinem vollen Funktionsumfang nutzen zu können.
+
 Man kann einen Countdown starten, aber den Timer auch einfach hochzählen
 lassen.
 Wenn ihr das Plugin installieren wollt, fügt beide .jar Dateien in euren Plugins-Ordner auf eurem Server.
